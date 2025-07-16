@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sierra Leone Tourism - Attractions</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">SL Tourism</div>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="attractions.html"><i class="fas fa-landmark"></i> Attractions</a></li>
+            <li><a href="events.html"><i class="fas fa-calendar-alt"></i> Events</a></li>
+            <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+    </nav>
+    <section class="attractions">
+        <h1>Top Attractions in Sierra Leone</h1>
+        <div class="attractions-grid">
+            <div class="attraction-card">
+                <img src="https://via.placeholder.com/300x200.png?text=Banana+Islands" alt="Banana Islands">
+                <h3>Banana Islands</h3>
+                <p>Explore pristine beaches and vibrant marine life on these serene islands.</p>
+                <a href="#" class="card-link"><i class="fas fa-info-circle"></i> Learn More</a>
+            </div>
+            <div class="attraction-card">
+                <img src="https://via.placeholder.com/300x200.png?text=Tacugama+Sanctuary" alt="Tacugama Chimpanzee Sanctuary">
+                <h3>Tacugama Chimpanzee Sanctuary</h3>
+                <p>Visit this sanctuary to see chimpanzees and learn about conservation efforts.</p>
+                <a href="#" class="card-link"><i class="fas fa-info-circle"></i> Learn More</a>
+            </div>
+            <div class="attraction-card">
+                <img src="https://via.placeholder.com/300x200.png?text=Bunce+Island" alt="Bunce Island">
+                <h3>Bunce Island</h3>
+                <p>Discover the historical significance of this former slave trading post.</p>
+                <a href="#" class="card-link"><i class="fas fa-info-circle"></i> Learn More</a>
+            </div>
+            <div class="attraction-card">
+                <img src="https://via.placeholder.com/300x200.png?text=Outamba-Kilimi" alt="Outamba-Kilimi National Park">
+                <h3>Outamba-Kilimi National Park</h3>
+                <p>Experience wildlife and lush forests in Sierra Leone’s national park.</p>
+                <a href="#" class="card-link"><i class="fas fa-info-circle"></i> Learn More</a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>© 2025 Sierra Leone Tourism Promotion Portal. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
