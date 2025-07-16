@@ -50,7 +50,7 @@
     cursor: pointer;
 }
 
-/* Responsive Design */
+/* Responsive Navigation */
 @media (max-width: 768px) {
     .menu-toggle {
         display: block;
@@ -73,5 +73,100 @@
     .nav-links li {
         margin: 10px 0;
         text-align: center;
+    }
+}
+
+/* Homepage Hero Section */
+.hero {
+    margin-top: 60px;
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: #333;
+}
+
+.hero-content {
+    padding: 50px 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6200;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.cta-button:hover {
+    background-color: #ffe4b5;
+    color: #333;
+}
+
+/* Carousel */
+.carousel {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.carousel-item {
+    display: none;
+}
+
+.carousel-item.active {
+    display: block;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: white;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.social-links a:hover {
+    color: #ffe4b5;
+}
+
+/* Responsive Homepage */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .cta-button {
+        font-size: 14px;
+        padding: 8px 16px;
     }
 }
